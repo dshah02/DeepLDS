@@ -1,0 +1,11 @@
+random_seed: 74
+run_name: futurefill
+save_dir: outputs_futurefill/april7/
+input_length: [0]
+max_length: [30] #[131072] #[32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 65536, 131072]  # total length of output
+futurefill_k: [None] #[10, 16, 24, 37, 56, 84, 124, 184, 271, 398, 583] #optimal cache size of futurefill
+temperature: 1
+top_k: 1
+repeat: 3
+cache: true
+debug: false

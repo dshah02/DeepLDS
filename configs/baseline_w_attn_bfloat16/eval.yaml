@@ -1,0 +1,10 @@
+random_seed: 74
+run_name: baseline_attn_bfloat16
+save_dir: outputs/april7/
+input_length: [0]
+max_length: [32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072] # total length of output
+temperature: 1
+top_k: 1
+repeat: 3
+cache: true
+debug: false
